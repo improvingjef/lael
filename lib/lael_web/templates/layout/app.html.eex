@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lael · Phoenix Framework</title>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <style>
+      .rock-salt {
+        font-family: 'Rock Salt', cursive;
+      }
+      body {
+        background-image: url(images/lael.jpg);
+        background-position: center;
+        background-size: contain;
+      }
+      h1 {
+        background-color: rgba(0,0,0,0.75);
+        color: white;
+        text-align: center;
+      }
+      header {
+        background: transparent;
+        margin-top: 45vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="rock-salt">Lael is like Jesus.</h1>
+    </header>
+  </body>
+</html>
